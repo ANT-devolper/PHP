@@ -7,14 +7,14 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="cad.php" method="post">
+    <form action="cad.php" method="get">
         <div>
             <label for="iName">Nome</label><br>
-            <input type="text" name="name" id="iname" autocomplete="off">
+            <input type="text" name="name" id="iname" autocomplete="off" required>
         </div>
         <div>
             <label for="isobre">Sobrenome</label><br>
-            <input type="text" name="sobre" id="isobre" autocomplete="off">
+            <input type="text" name="sobre" id="isobre" autocomplete="off" required>
         </div>
         <input type="submit" value="Enviar" id="enviar">
 
