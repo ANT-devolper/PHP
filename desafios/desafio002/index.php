@@ -13,12 +13,7 @@
         <?php 
             echo "O valor gerado foi " . rand(0,100);
         ?>
-        <button onclick="refresh()">🔄 Gerar outro</button>
+        <button onclick="javascript:location.reload()">🔄 Gerar outro</button>
     </main>
-    <script>
-        function refresh(){
-            location.reload()
-        }
-    </script>
 </body>
 </html>
