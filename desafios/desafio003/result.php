@@ -11,7 +11,7 @@
         <h1>Conversor de Moedas v1.0</h1>
         <?php 
             $money = $_GET["dinheiro"];
-            echo "Seus R$$money equivalem a US$" . $money*4.99;
+            echo "Seus R\$" . number_format($money, 2, ",", ".") . " equivalem a US\$" . number_format($money/4.99, 2, ",", ".");
         ?>
         <p>*<strong>Cotação fixa de 4,99</strong> informada diretamente no codigo</p>
         <button onclick="volta()">Voltar</button>
